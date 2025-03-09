@@ -4,5 +4,4 @@ def recur_factorial(n):
     return 1
   else:
     return n * recur_factorial(n - 1)
-recur_factorial(5)
-print(f"Factorial of {n} is : {recur_factorial(5)}")
+print(f"Factorial of {n} is : {recur_factorial(n)}")
